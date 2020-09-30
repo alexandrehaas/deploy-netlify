@@ -5,7 +5,7 @@ cache:
     directories:
         - node-modules
 script:
-    - yarn test --watchAll = false
+    - yarn test --watchAll=false
     - yarn build
 on:
     branch: master
